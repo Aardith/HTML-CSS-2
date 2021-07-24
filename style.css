@@ -1,0 +1,31 @@
+h1{
+    color:rgb(32, 207, 207)
+}
+.header{
+    background-color: rgb(255, 136, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    display: flex;
+    align-self: auto;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
